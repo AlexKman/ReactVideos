@@ -2,7 +2,7 @@ import React from 'react';
 
 const VideoDetail = ({ video }) => {
   if (!video) {
-    return <div>Loading...</div>;
+    return <div>JUST LOADING IF YOU CAN READ THIS TEXT THEN YOUR INTERNET IS SLOW</div>;
   }
 
   const videoSrc = `https://www.youtube.com/embed/${video.id.videoId}`;
